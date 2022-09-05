@@ -1,0 +1,112 @@
+body {
+    background-color:wheat;
+}
+
+header {
+    background-color: plum;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+h1 {
+    font-size: 40pt;
+    color:rgb(255, 232, 254);
+    font-family: 'Lobster', cursive;
+}
+#description {
+    display: flex;
+    justify-content: space-around;
+}
+.gamerule {
+    font-size: 25pt;
+    font-family: 'Lobster', cursive;
+    color:mediumpurple;
+    align-items: center;
+}
+
+#timer {
+    display: flex;
+    justify-content: space-around;
+    font-size: 25pt;
+    font-family: 'Lobster', cursive;
+    color: rgb(80, 21, 129);
+    align-items: center;
+    margin-bottom: 1cm;
+}
+
+#game_buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.start {
+    background-color:rgb(167, 207, 255);
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Lobster', cursive;
+    font-size: 16pt;
+    color: white;
+}
+
+.done {
+    background-color: rgb(167, 207, 255);
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Lobster', cursive;
+    font-size: 16pt;
+    color: white;
+}
+
+.stop {
+    background-color: rgb(167, 207, 255);
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Lobster', cursive;
+    font-size: 16pt;
+    color: white;
+}
+
+#command {
+    display: flex;
+    justify-content: space-around;
+    font-size: 25pt;
+    font-family: 'Lobster', cursive;
+    color: rgb(80, 21, 129);
+    align-items: center;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+}
+
+#selection {
+    display: flex;
+    justify-content: center;
+}
+
+select {
+    color:blueviolet;
+    padding: 10px;
+    border-radius: 10px;;
+}
+
+.imgbody {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    position: absolute;
+}
+
+.cakeflavor{
+    position: absolute;
+    z-index: 10;
+}
+.occasion{
+    position: absolute;
+    z-index: 30;
+}
+.deco{
+    position: absolute;
+    z-index: 20;
+}

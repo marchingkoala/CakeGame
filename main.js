@@ -48,6 +48,7 @@ startbaking.addEventListener('click', function(event){
 stop.addEventListener('click', function(event){
     event.preventDefault();
     isStopped = "stop";
+    location.reload();
 })
 
 select1.addEventListener('change', function(event){
@@ -94,7 +95,8 @@ done.addEventListener('click', function(event){
     let cakeVal = select2.options[select2.selectedIndex].value;
     let decoVal = select3.options[select3.selectedIndex].value;
  
-    if(orderticket.innerHTML.includes(occVal && cakeVal && decoVal)){
+    if(orderticket.innerHTML.includes(occVal)){
+      if (orderticket.innerHTML.includes(cakeVal && decoVal))
         orderticket.innerHTML = "Great work! I love this Cake!";
     }else{
         orderticket.innerHTML = "This is not the cake I ordered!"
